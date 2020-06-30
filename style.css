@@ -1,0 +1,133 @@
+/* I have added some hover in work and button element*/
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;;
+}
+.name-highlight{
+    font-size: 40px;
+    color:rgb(226, 12, 162);
+    font-weight: 600;
+}
+h1{
+    line-height: 20px;
+}
+.for-margin{
+    margin-top: 125px;
+}
+p{
+    line-height: 23px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+a{
+ text-decoration: none;
+ background-color:#ee1caf;
+ padding:10px 25px;
+ border-radius: 4px;
+ color:#ffffff;
+}
+.for-button{
+    margin-top: 35px;
+}
+a:hover{
+    color: black;
+    background-color: #fbff00;
+}
+.for-section{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.for-biography{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.for-work{
+    padding-top: 170px;
+    margin-left: 4%;
+}
+.latest-work{
+    text-align: center;
+    font-size: 39px;
+    font-weight: 600;
+}
+.work-image{
+    float: left;
+    width: 25%;
+    padding:40px;   
+}
+.work-image img:hover{
+    border:1px solid rgb(187, 184, 184);
+}
+.client-experience{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.client-q{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.client-name{
+    text-align: center;
+    padding-top: 15px;
+}
+.founder-company{
+    text-align: center;
+    font-weight: 100;
+    color:rgb(112, 106, 106);
+    line-height: 1px;
+
+}
+.client-comment{
+    text-align: center;
+    width: 470px;
+    margin: auto;
+    padding: 40px 2px;
+    font-size: 22px;
+}
+.for-email{
+    max-width: 900px;
+    height: 180px;
+    margin: auto;
+    background-color: rgb(197, 14, 151);
+    border-radius: 5px;
+    
+}
+h4{
+    text-align: center;
+    color:white;
+    line-height: 20px;
+}
+.for-email :last-child{
+    font-size: 30px;
+    
+}
+.for-email :first-child{
+    font-size: 20px;
+    padding-top: 45px;
+}
+footer{
+    height: 60px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(92, 91, 91);
+}
