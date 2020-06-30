@@ -79,6 +79,13 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.client-experience img{
+    width: 130px;
+    height: 200px;
+    margin-left:45.5%;
+    position: relative;
+    top:70px;
+}
 .client-q{
     text-align: center;
     font-size: 40px;
@@ -124,9 +131,10 @@ h4{
     padding-top: 45px;
 }
 footer{
-    height: 60px;
+    margin-top: 200px;
 }
 .copyright{
     text-align: center;
-    color: rgb(92, 91, 91);
+    padding-bottom: 30px;
+    color: rgb(126, 122, 122);
 }
